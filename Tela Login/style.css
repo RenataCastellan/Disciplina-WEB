@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 900px;
+    height: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+#PainelDireita{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+#PainelEsquerda{
+    background-color: #16824e; 
+    color: white;
+    width: 40%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#botao-entrar {
+    background-color: #16824e;
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#botao-cancelar {
+    background: none;
+    border: none;
+    color: #666;
+    margin-top: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#PainelEsquerda img {
+    width: 120px;
+    height: auto;
+    margin-top: 60px;
+}
+
